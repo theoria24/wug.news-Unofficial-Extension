@@ -5,7 +5,6 @@
 // @description  wug.newsをより便利にしたい
 // @author       _theoria
 // @match        http://wug.news/
-// @match        http://sandbox.localhost/wug.news/
 // @grant        none
 // ==/UserScript==
 
