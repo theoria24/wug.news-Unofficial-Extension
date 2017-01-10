@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         wug.news拡張（非公式）
 // @namespace    http://theoria24.github.io/
-// @version      0.1
+// @version      0.1.2
 // @description  wug.newsをより便利にしたい
 // @author       _theoria
 // @match        http://wug.news/
@@ -16,55 +16,55 @@
 //        });
     });
     $("a.c_mayu").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".mayu").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.mayu").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.mayu))").hide();
     });
     $("a.c_airi").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".airi").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.airi").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.airi))").hide();
     });
     $("a.c_minami").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".minami").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.minami").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.minami))").hide();
     });
     $("a.c_yosino").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".yoshino").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.yoshino").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.yoshino))").hide();
     });
     $("a.c_nanami").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".nanami").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.nanami").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.nanami))").hide();
     });
     $("a.c_kaya").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".kaya").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.kaya").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.kaya))").hide();
     });
     $("a.c_miyu").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
-        $(".miyu").parent("article > section > ul > li").css({
-            'font-size':'18px'
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
+        $("article > section > ul > li > span.miyu").css({
+            'font-weight':'bold'
         });
         $("article > section > ul > li:not(:has(span.miyu))").hide();
     });
     $("a.c_reset").click(function() {
-        $("article > section > ul > li").css({'font-size':'',display:''});
+        $("article > section > ul > li,article > section > ul > li > span").css({display:'','font-weight':''});
     });
 })();
